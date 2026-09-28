@@ -51,25 +51,4 @@ pip install -r requirements.txt
 jupyter notebook Taller_Hunt_and_Kill_Busqueda_No_Informada.ipynb
 ```
 
----
 
-## Datos de mi instancia individual
-
-- Codigo: 202410057
-- Semilla: 10057 (ultimos 5 digitos)
-- Tamano: 27 filas x 25 columnas
-- Inicio: (3, 4) (cuadrante superior izquierdo)
-- Meta: (23, 20) (cuadrante inferior derecho)
-- Total aristas: 674 (cumple |V| - 1)
-
----
-
-## Graficas que generamos
-
-El proyecto guarda las 6 figuras solicitadas en la guia:
-1. grafica1_expandidos_vs_estados.png: Nodos expandidos segun el tamano del laberinto.
-2. grafica2_frontera_vs_profundidad.png: Cuantos nodos se acumulan en memoria en la frontera.
-3. grafica3_tiempo_vs_tamano.png: Comparativa de tiempos de busqueda en milisegundos.
-4. grafica4_costo_y_longitud.png: Comparacion de longitud de ruta con arbol vs con ciclos.
-5. grafica5_mapa_calor_lee.png: Mapa de calor con la onda de propagacion de Lee.
-6. grafica6_comparativa_versiones.png: Comparativa cruzada entre nuestra version desde cero, SimpleAI y AIMA.
