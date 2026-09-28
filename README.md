@@ -1,17 +1,13 @@
 # Taller: Hunt-and-Kill y Búsqueda no Informada
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Valdefer54/Hunt-and-Kill-y-Busqueda-No-Informada/blob/main/Taller_Hunt_and_Kill_Busqueda_No_Informada.ipynb)
-[![View on nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/Valdefer54/Hunt-and-Kill-y-Busqueda-No-Informada/blob/main/Taller_Hunt_and_Kill_Busqueda_No_Informada.ipynb)
 
-Proyecto del curso de Inteligencia Artificial (basado en el capitulo 3 del libro de Russell y Norvig, AIMA).
+Proyecto del curso de Inteligencia Artificial.
 
 En este taller trabajamos sobre un generador de laberintos perfectos (Hunt-and-Kill) y resolvemos la busqueda de caminos entre dos celdas implementando los algoritmos de tres maneras diferentes:
 1. Desde cero: sin librerias de busqueda, usando solo estructuras estandar de Python (deque, listas, diccionarios, heapq).
 2. SimpleAI: adaptando el laberinto como un SearchProblem.
 3. AIMA-Python: adaptandolo como una subclase de Problem.
-
-Tip si GitHub tarda en cargar:
-Los cuadernos .ipynb a veces se quedan cargando en la web de GitHub. Si te pasa, puedes abrirlo en 1 segundo usando el boton de Open in Colab o el de nbviewer de arriba.
 
 ---
 
