@@ -1,10 +1,15 @@
 # Hunt-and-Kill y Búsqueda no Informada
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Valdefer54/Hunt-and-Kill-y-Busqueda-No-Informada/blob/main/Taller_Hunt_and_Kill_Busqueda_No_Informada.ipynb)
+[![View on nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/Valdefer54/Hunt-and-Kill-y-Busqueda-No-Informada/blob/main/Taller_Hunt_and_Kill_Busqueda_No_Informada.ipynb)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![AIMA Reference](https://img.shields.io/badge/AIMA-Capítulo%203-brightgreen.svg)](https://aima.cs.berkeley.edu/)
 
 Proyecto integral del curso de **Inteligencia Artificial** centrado en la generación de laberintos perfectos mediante el algoritmo **Hunt-and-Kill** y la implementación, verificación experimental y análisis comparativo de algoritmos de **búsqueda no informada**.
+
+> 💡 **Nota de carga rápida:**
+> - **En GitHub:** Si la vista previa de GitHub tarda en renderizar el archivo `.ipynb`, haz clic en el botón superior **"Open in Colab"** o **"Render on nbviewer"** para visualizar y ejecutar de inmediato.
+> - **En el Cuaderno:** La Celda 27 incluye carga precalculada de los 900 experimentos (`datos_experimentos.csv`), permitiendo que el cuaderno se ejecute completo en menos de 5 segundos.
 
 ---
 
@@ -25,6 +30,7 @@ El proyecto implementa el contrato común de búsqueda en **tres versiones indep
 ```text
 .
 ├── Taller_Hunt_and_Kill_Busqueda_No_Informada.ipynb   # Cuaderno principal con las 14 secciones
+├── datos_experimentos.csv                            # Base de datos precomputada del benchmark factorial
 ├── requirements.txt                                  # Dependencias del proyecto
 ├── src/                                              # Código fuente modular
 │   ├── auditoria_generador.py                        # Pruebas automáticas del generador Hunt-and-Kill
@@ -49,7 +55,7 @@ El proyecto implementa el contrato común de búsqueda en **tres versiones indep
 
 ---
 
-## 🚀 Instalación y Ejecución
+## 🚀 Instalación y Ejecución Local
 
 ### 1. Clonar el repositorio
 ```bash
@@ -65,7 +71,6 @@ pip install -r requirements.txt
 ```
 
 ### 3. Ejecutar el Cuaderno
-Abre el cuaderno en Jupyter Notebook, JupyterLab o VS Code y ejecuta **"Run All"**:
 ```bash
 jupyter notebook Taller_Hunt_and_Kill_Busqueda_No_Informada.ipynb
 ```
